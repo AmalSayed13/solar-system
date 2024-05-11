@@ -8,10 +8,9 @@ on:
     
 jobs:
    first:
-        name: 
         runs-on: ubuntu-latest
         steps:
         - name: print msg
-          uses: echo "Amal"
+          run: echo "Amal"
 
         

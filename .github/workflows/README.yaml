@@ -14,4 +14,4 @@ jobs:
           run: echo "Hello Dear , Amal sayed amin hassan" > README.md
 
         - name: Print README.md
-          run: cat /AmalSayed13/solar-system/README.md
+          run: cat README.md

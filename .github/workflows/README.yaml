@@ -11,7 +11,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
         - name: Print Data
-          run: echo "Hello Dear , Amal sayed amin hassan" > README.md
+          run: echo "Hello Dear , Amal sayed amin hassan" >> README.md
 
         - name: Print README.md
           run: cat README.md

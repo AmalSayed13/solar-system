@@ -1,0 +1,14 @@
+name: Print Data
+
+on: 
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    
+jobs:
+   first:
+        runs-on: ubuntu-latest
+        steps:
+        - name: Print Data
+          run: cat README.md
